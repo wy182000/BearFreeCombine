@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../NEKit"
+      name = "NEKit">
+      <Group
+         location = "group:Crypto"
+         name = "Crypto">
+         <FileRef
+            location = "group:HMAC.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MD5Hash.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CryptoHelper.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SodiumStreamCrypto.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CryptoEnum.swift">
+         </FileRef>
+         <FileRef
+            location = "group:StreamCryptoProtocol.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CCCrypto.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Libsodium.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Messages"
+         name = "Messages">
+         <FileRef
+            location = "group:ConnectSession.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HTTPHeader.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ResponseGeneratorFactory.swift">
+      </FileRef>
+      <Group
+         location = "group:ProxyServer"
+         name = "ProxyServer">
+         <FileRef
+            location = "group:ProxyServer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GCDProxyServer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GCDSOCKS5ProxyServer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GCDHTTPProxyServer.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Config"
+         name = "Config">
+         <FileRef
+            location = "group:RuleParser.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AdapterFactoryParser.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Configuration.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RawSocket"
+         name = "RawSocket">
+         <FileRef
+            location = "group:NWUDPSocket.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RawTCPSocketProtocol.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NWTCPSocket.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TUNTCPSocket.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RawSocketFactory.swift">
+         </FileRef>
+         <FileRef
+            location = "group:GCDTCPSocket.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:GeoIP"
+         name = "GeoIP">
+         <FileRef
+            location = "group:GeoIP.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Opt.swift">
+      </FileRef>
+      <Group
+         location = "group:Utils"
+         name = "Utils">
+         <FileRef
+            location = "group:Buffer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Port.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HTTPStreamScanner.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UInt128.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPInterval.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPPool.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPMask.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPRange.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPAddress.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Atomic.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BinaryDataScanner.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Checksum.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HTTPURL.swift">
+         </FileRef>
+         <FileRef
+            location = "group:HTTPAuthentication.swift">
+         </FileRef>
+         <FileRef
+            location = "group:StreamScanner.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:GlobalIntializer.swift">
+      </FileRef>
+      <Group
+         location = "group:Rule"
+         name = "Rule">
+         <FileRef
+            location = "group:DomainListRule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:CountryRule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DNSSessionMatchType.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DNSFailRule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AllRule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DNSSessionMatchResult.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Rule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DirectRule.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RuleManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPRangeListRule.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Tunnel"
+         name = "Tunnel">
+         <FileRef
+            location = "group:QueueFactory.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Tunnel.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ResponseGenerator.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Utils.swift">
+      </FileRef>
+      <Group
+         location = "group:IPStack"
+         name = "IPStack">
+         <FileRef
+            location = "group:TCPStack.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TUNInterface.swift">
+         </FileRef>
+         <FileRef
+            location = "group:IPStackProtocol.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UDPDirectStack.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Router.swift">
+         </FileRef>
+         <Group
+            location = "group:DNS"
+            name = "DNS">
+            <FileRef
+               location = "group:DNSMessage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DNSSession.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DNSServer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DNSResolver.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DNSEnums.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Packet"
+            name = "Packet">
+            <FileRef
+               location = "group:PacketProtocolParser.swift">
+            </FileRef>
+            <FileRef
+               location = "group:IPPacket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:IPMutablePacket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TCPMutablePacket.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Event"
+         name = "Event">
+         <FileRef
+            location = "group:Observer.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DebugObserver.swift">
+         </FileRef>
+         <Group
+            location = "group:Event"
+            name = "Event">
+            <FileRef
+               location = "group:AdapterSocketEvent.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProxyServerEvent.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EventType.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProxySocketEvent.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TunnelEvent.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RuleMatchEvent.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ObserverFactory.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Socket"
+         name = "Socket">
+         <Group
+            location = "group:AdapterSocket"
+            name = "AdapterSocket">
+            <FileRef
+               location = "group:HTTPAdapter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SecureHTTPAdapter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpeedAdapter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AdapterSocket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DirectAdapter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SOCKS5Adapter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RejectAdapter.swift">
+            </FileRef>
+            <Group
+               location = "group:Factory"
+               name = "Factory">
+               <FileRef
+                  location = "group:SpeedAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ShadowsocksAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AuthenticationServerAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RejectAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SOCKS5AdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SecureHTTPAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ServerAdapterFactory.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AdapterFactoryManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTPAdapterFactory.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Shadowsocks"
+               name = "Shadowsocks">
+               <FileRef
+                  location = "group:StreamObfuscater.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CryptoStreamProcessor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ProtocolObfuscater.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ShadowsocksAdapter.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ProxySocket"
+            name = "ProxySocket">
+            <FileRef
+               location = "group:HTTPProxySocket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DirectProxySocket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProxySocket.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SOCKS5ProxySocket.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SocketProtocol.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

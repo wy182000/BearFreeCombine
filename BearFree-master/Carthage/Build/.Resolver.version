@@ -1,0 +1,10 @@
+{
+  "commitish" : "0.2.0",
+  "iOS" : [
+    {
+      "name" : "Resolver",
+      "hash" : "8617684a69af0ad50765308c68975ae6ea40ae4db2946afd990ef427f8c0270a",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}

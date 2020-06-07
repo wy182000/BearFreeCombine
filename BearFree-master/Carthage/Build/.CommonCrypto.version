@@ -1,0 +1,9 @@
+{
+  "commitish" : "v1.1.0",
+  "iOS" : [
+    {
+      "name" : "CommonCrypto",
+      "hash" : "9ba128ea1ef5e4fb842c06d3f63f6576f6cd16c2eb538a2aa36d8196738c6c08"
+    }
+  ]
+}
