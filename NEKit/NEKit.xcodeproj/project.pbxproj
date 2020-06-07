@@ -117,28 +117,9 @@
 		36DB3CE81E0CD17100D907DB /* IPInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB3CE61E0CD17100D907DB /* IPInterval.swift */; };
 		36DB3CEB1E0CD19000D907DB /* IPMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB3CE91E0CD19000D907DB /* IPMask.swift */; };
 		36E9CD001DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
-		542BC067248D3EFB003370AC /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542BC066248D3EAA003370AC /* lwip.framework */; };
-		542BC068248D3EFB003370AC /* lwip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 542BC066248D3EAA003370AC /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		542BC069248D3EFB003370AC /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542BC064248D3EAA003370AC /* tun2socks.framework */; };
-		542BC06A248D3EFB003370AC /* tun2socks.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 542BC064248D3EAA003370AC /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		549CD5D3248D4FCC002E7CCF /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549CD5D2248D4FCC002E7CCF /* lwip.framework */; };
+		549CD5D5248D4FCC002E7CCF /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549CD5D4248D4FCC002E7CCF /* tun2socks.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		542BC063248D3EAA003370AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 542BC05E248D3EAA003370AC /* tun2socks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 36C48CA21CF8701A0071804F;
-			remoteInfo = "tun2socks-iOS";
-		};
-		542BC065248D3EAA003370AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 542BC05E248D3EAA003370AC /* tun2socks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 36A718FF1D5B0AC100DC35F5;
-			remoteInfo = "lwip-iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		36A718E61D5AF2AF00DC35F5 /* CopyFiles */ = {
@@ -147,8 +128,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				542BC068248D3EFB003370AC /* lwip.framework in CopyFiles */,
-				542BC06A248D3EFB003370AC /* tun2socks.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +260,8 @@
 		36DB3CE91E0CD19000D907DB /* IPMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPMask.swift; sourceTree = "<group>"; };
 		36E44A011CF2ED4800185DBF /* TUNInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUNInterface.swift; sourceTree = "<group>"; };
 		36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueFactory.swift; path = Tunnel/QueueFactory.swift; sourceTree = "<group>"; };
-		542BC05E248D3EAA003370AC /* tun2socks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tun2socks.xcodeproj; path = ../tun2socks/tun2socks.xcodeproj; sourceTree = "<group>"; };
+		549CD5D2248D4FCC002E7CCF /* lwip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = lwip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		549CD5D4248D4FCC002E7CCF /* tun2socks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = tun2socks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,14 +269,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CD5D3248D4FCC002E7CCF /* lwip.framework in Frameworks */,
+				549CD5D5248D4FCC002E7CCF /* tun2socks.framework in Frameworks */,
 				360F392F1DD20774002BED59 /* Resolver.framework in Frameworks */,
 				36C4B7D21D6C508100F2BDCD /* CocoaAsyncSocket.framework in Frameworks */,
 				36C4B7D31D6C508100F2BDCD /* CocoaLumberjack.framework in Frameworks */,
 				36C4B7D41D6C508100F2BDCD /* CocoaLumberjackSwift.framework in Frameworks */,
-				542BC069248D3EFB003370AC /* tun2socks.framework in Frameworks */,
 				36C4B7D71D6C508100F2BDCD /* MMDB.framework in Frameworks */,
 				36C4B7D81D6C508100F2BDCD /* Sodium.framework in Frameworks */,
-				542BC067248D3EFB003370AC /* lwip.framework in Frameworks */,
 				36C4B7DA1D6C508100F2BDCD /* Yaml.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +287,8 @@
 		360F392A1DD2068D002BED59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				549CD5D2248D4FCC002E7CCF /* lwip.framework */,
+				549CD5D4248D4FCC002E7CCF /* tun2socks.framework */,
 				36C48D9B1CF9483F0071804F /* iOS */,
 			);
 			name = Frameworks;
@@ -360,7 +342,6 @@
 		36463A261CDCD5EB0040579C = {
 			isa = PBXGroup;
 			children = (
-				542BC05E248D3EAA003370AC /* tun2socks.xcodeproj */,
 				360F392A1DD2068D002BED59 /* Frameworks */,
 				36C48D4E1CF88DED0071804F /* NEKit-iOS */,
 				36463A311CDCD5EB0040579C /* Products */,
@@ -649,15 +630,6 @@
 			name = IP;
 			sourceTree = "<group>";
 		};
-		542BC05F248D3EAA003370AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				542BC064248D3EAA003370AC /* tun2socks.framework */,
-				542BC066248D3EAA003370AC /* lwip.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -722,35 +694,12 @@
 			mainGroup = 36463A261CDCD5EB0040579C;
 			productRefGroup = 36463A311CDCD5EB0040579C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 542BC05F248D3EAA003370AC /* Products */;
-					ProjectRef = 542BC05E248D3EAA003370AC /* tun2socks.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				36C48D4C1CF88DED0071804F /* NEKit-iOS */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		542BC064248D3EAA003370AC /* tun2socks.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = tun2socks.framework;
-			remoteRef = 542BC063248D3EAA003370AC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		542BC066248D3EAA003370AC /* lwip.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = lwip.framework;
-			remoteRef = 542BC065248D3EAA003370AC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		36C48D4B1CF88DED0071804F /* Resources */ = {
